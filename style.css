@@ -1,0 +1,27 @@
+.calc-container {
+    padding: 20px;
+    border: 0.1px black solid;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: thistle;
+    display: flex;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+html body input {
+    border-radius: 5px;
+    border: 0.1px black solid;
+    padding: 5px;
+    width: 50px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.text-container {
+    width: 100%;
+}
