@@ -1,7 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+}
 .calc-container {
     padding: 20px;
     border: 0.1px black solid;
-    width: fit-content;
     border-radius: 10px;
     background-color: thistle;
     display: flex;
@@ -15,13 +18,13 @@ html body input {
     border-radius: 5px;
     border: 0.1px black solid;
     padding: 5px;
-    width: 50px;
+    flex: 1;
 }
 .button-container {
     display: flex;
     justify-content: space-between;
     gap: 5px;
 }
-.text-container {
-    width: 100%;
+.text-display {
+    flex: 1;
 }
