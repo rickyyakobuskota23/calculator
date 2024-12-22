@@ -33,6 +33,9 @@ html body input {
     padding: 5px;
     flex: 1;
 }
+html body input:hover {
+    cursor: pointer;
+}
 .button-container {
     display: flex;
     justify-content: space-between;
@@ -43,16 +46,17 @@ html body input {
     flex-direction: column;
     gap: 5px;
 }
-.text-display-below {
+#display-below {
     flex: 1;
         background-color: rgb(48, 48, 60);
         color: white;
         font-weight: 600;
-        font-size: medium;
+        font-size: large;
         border: none;
         text-align: right;
+        cursor: default;
 }
-.text-display-above {
+#display-above {
     flex: 1;
     background-color: rgb(48, 48, 60);
     color: grey;
@@ -60,6 +64,7 @@ html body input {
     font-size: medium;
     border: none;
     text-align: right;
+    cursor: default;
 }
 .colored {
     background-color: rgb(255, 149, 0);

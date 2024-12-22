@@ -10,40 +10,41 @@
     <div class="calc-container">
         <div class="calculator">
             <div class="text-container">
-                <input type="text" class="text-display-above" value="0">
-                <input type="text" class="text-display-below" value="1">
+                <input type="text" id="display-above" placeholder="" readonly>
+                <input type="text" id="display-below" placeholder="0" readonly>
             </div>
             <div class="button-container">
-                <input type="button" value="AC">
-                <input type="button" value="DE">
-                <input type="button" value="%">
-                <input type="button" value="/" class="colored">
+                <input type="button" value="AC" id="clear-button">
+                <input type="button" value="DEL" id="delete-button">
+                <input type="button" value="%" class="mybutton">
+                <input type="button" value="/" class="colored mybutton">
             </div>
             <div class="button-container">
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
-                <input type="button" value="*" class="colored">
+                <input type="button" value="7" class="mybutton">
+                <input type="button" value="8" class="mybutton">
+                <input type="button" value="9" class="mybutton">
+                <input type="button" value="*" class="colored mybutton">
             </div>
             <div class="button-container">
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
-                <input type="button" value="+" class="colored">
+                <input type="button" value="4" class="mybutton">
+                <input type="button" value="5" class="mybutton">
+                <input type="button" value="6" class="mybutton">
+                <input type="button" value="+" class="colored mybutton">
             </div>
             <div class="button-container">
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="-" class="colored">
+                <input type="button" value="1" class="mybutton">
+                <input type="button" value="2" class="mybutton">
+                <input type="button" value="3" class="mybutton">
+                <input type="button" value="-" class="colored mybutton">
             </div>
             <div class="button-container">
-                <input type="button" value="00">
-                <input type="button" value="0">
-                <input type="button" value=".">
-                <input type="button" value="=" class="colored">
+                <input type="button" value="00" class="mybutton">
+                <input type="button" value="0" class="mybutton">
+                <input type="button" value="." class="mybutton">
+                <input type="button" value="=" class="colored" id="equals">
             </div>
         </div>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
