@@ -11,7 +11,7 @@ html {
 body {
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 .calc-container {
@@ -20,7 +20,9 @@ body {
     border-radius: 10px;
     background-color: rgb(48, 48, 60);
     display: flex;
+    align-self: center;
     height: fit-content;
+    margin-top: auto;
 }
 .calculator {
     display: flex;
@@ -85,6 +87,8 @@ html body input:hover {
     padding-left: 2px;
     padding-right: 2px;
 }
+/* Decoration aja biar kayak calc mac*/
+
 .window-minimise {
     font-size: x-small;
     font-weight: 600;
@@ -118,4 +122,8 @@ html body input:hover {
 .window-close:hover {
     color: white;
     cursor: pointer;
+}
+.footer-container {
+    margin-top: auto;
+    margin-bottom: 10px;
 }
