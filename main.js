@@ -26,7 +26,10 @@ equalsButton.addEventListener('click', function() {
     try {
         displayAbove.value = display.value;
 
-        display.value = eval(display.value);
+        const processedExpression = display.value.replace(/(\d+)%/g, (match, number) => {
+            return Number(number) / 100;
+        })
+        display.value = eval(processedExpression);
     } catch (error) {
         display.value = 'error';
     }
