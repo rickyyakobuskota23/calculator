@@ -5,8 +5,6 @@ const clearButton = document.getElementById('clear-button');
 const equalsButton = document.getElementById('equals');
 const displayAbove = document.getElementById('display-above')
 
-let result = 0;
-
 buttons.forEach(mybutton => {
     mybutton.addEventListener('click', function() {
         display.value += this.value;
